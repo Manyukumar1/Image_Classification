@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/build"
+        android:layout_width="214dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/build"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/glacier"
+        android:layout_width="214dp"
+        android:layout_height="237dp"
+        android:src="@drawable/glacier"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/build"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/sea"
+        android:layout_width="214dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/sea"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/glacier"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/street"
+        android:layout_width="214dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="240dp"
+        android:src="@drawable/street"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/build"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/mount"
+        android:layout_width="214dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/mount"
+        app:layout_constraintStart_toEndOf="@+id/glacier"
+        app:layout_constraintTop_toBottomOf="@+id/street"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/forest"
+        android:layout_width="214dp"
+        android:layout_height="237dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/forest"
+        app:layout_constraintStart_toEndOf="@+id/sea"
+        app:layout_constraintTop_toBottomOf="@+id/mount"
+        tools:ignore="MissingConstraints" />
+
+
+<!--    <Button-->
+<!--        android:id="@+id/btnSelectPhoto"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="640dp"-->
+<!--        android:text="Select Photo" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/viewImage"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="632dp"-->
+<!--        />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
