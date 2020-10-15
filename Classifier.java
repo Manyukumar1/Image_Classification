@@ -132,6 +132,7 @@ public class Classifier {
         }
 
          return byteBuffer;
+        //System.out.println("output");
     }
 
   /*  private List<Recognition> getSortedResultFloat(float[][] labelProbArray){
